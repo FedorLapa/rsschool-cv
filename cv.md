@@ -6,7 +6,7 @@
 * GitHub: FedorLapa
 
 ## About me
-I am a reliable person with high communicational skills. I'm interested in studying and developing new spheres of human activity. So I'll try to do my best with only one purpose - to be on top.
+I'm a reliable person with high communicational skills. I'm interested in studying and developing new spheres of human activity. So I'll try to do my best with only one purpose - to be on the top.
 
 ## Skills
 * HTML/CSS
@@ -29,3 +29,14 @@ let array = [50, 60, 70, 71, 73, 10, 27, 55, 13, 17, 63, 33, 22, 21]
 
         min(array)
 
+## Experience
+Soon...
+
+## Education 
+* University: Belarusian State Academy of Aviation, ATC
+* Courses:
+  * Computer Science - IT-Academy
+  * HTML/CSS + JS Basics - IT-Academy
+
+## English 
+B2
