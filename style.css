@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(79, 145, 207);
+    list-style: none;
+    transition: .3s;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: whitesmoke;
+    border-radius: 40%;
+    cursor: pointer;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 120px;
+}
+.section-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 450px;
+    height: 400px;
+}
+.section-profile p {
+    font-size: x-large;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(79, 145, 207);
+}
+.section-profile-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+hr {
+    margin: 20px 0;
+    padding: 0;
+    height: 1px;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+h2 {
+    text-transform: uppercase;
+}
+h1 {
+    text-transform: uppercase;
+}
+h1:hover{
+    background-color: rgb(79, 145, 207);
+    cursor: pointer;
+    color:white;
+}
+footer{
+    background-color: rgb(79, 145, 207);
+}
+
+.footer .container {
+    margin-left:50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-photo{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    margin-right:50px;
+}
+
+.footer a {
+    text-decoration: none;
+    color:black;
+}
+
+.footer-git:hover{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10%;
+}
+
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
