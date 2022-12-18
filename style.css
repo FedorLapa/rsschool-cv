@@ -48,6 +48,7 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
 .section {
     display: flex;
     width: 50%;
@@ -56,6 +57,7 @@ body {
     flex-direction: column;
     padding-right: 120px;
 }
+
 .section-profile {
     display: flex;
     flex-direction: row;
@@ -64,6 +66,7 @@ body {
     margin-left: 450px;
     height: 400px;
 }
+
 .section-profile p {
     font-size: x-large;
     text-transform: uppercase;
@@ -71,11 +74,13 @@ body {
     line-height: 40px;
     color: rgb(79, 145, 207);
 }
+
 .section-profile-photo {
     width: 300px;
     height: 300px;
     border-radius: 50%;
 }
+
 hr {
     margin: 20px 0;
     padding: 0;
@@ -84,46 +89,50 @@ hr {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
+
 h2 {
     text-transform: uppercase;
 }
+
 h1 {
     text-transform: uppercase;
 }
-h1:hover{
+
+h1:hover {
     background-color: rgb(79, 145, 207);
     cursor: pointer;
-    color:white;
+    color: white;
 }
-footer{
+
+footer {
     background-color: rgb(79, 145, 207);
 }
 
 .footer .container {
-    margin-left:50px;
+    margin-left: 50px;
     display: flex;
     justify-content: space-between;
 
 }
-.footer-photo{
+
+.footer-photo {
     display: flex;
     justify-content: center;
     width: 100px;
     height: 50px;
-    margin-right:50px;
+    margin-right: 50px;
 }
 
 .footer a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
-.footer-git:hover{
+.footer-git:hover {
     cursor: pointer;
     background-color: white;
     border-radius: 10%;
 }
-
 
 @media (max-width: 768px) {
     .section {
