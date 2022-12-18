@@ -22,11 +22,14 @@ body {
     margin: 0 auto;
 }
 
+.header{
+    background-color: rgb(79, 145, 207);
+}
 .nav-list {
+    height: 20px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: rgb(79, 145, 207);
     list-style: none;
     transition: .3s;
 }
